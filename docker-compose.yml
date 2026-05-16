@@ -23,8 +23,8 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - "3000:3000"   # веб-интерфейс
-      - "2222:22"     # SSH для git-операций
+      - "3000:3000"   # Web-
+      - "2222:22"     # SSH for operations
     depends_on:
       - db
 
